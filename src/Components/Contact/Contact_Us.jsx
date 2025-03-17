@@ -1,11 +1,11 @@
 import React from 'react'
 import './contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 
-function Contact_Us() {
+function ContactUs() {
   return (
     <div id="contact" class="contact-us section">
     <div class="container">
@@ -15,9 +15,9 @@ function Contact_Us() {
             <h2>Any Complain ? <br /> Feel Free To Feedback Us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doer ket eismod tempor incididunt ut labore et dolores</p>
             <div class="phone-info">
-              <h4>For any enquiry, Call Us <span> <br />
+              <h4>Any inconvenient?, Call Us <span> <br />
               <FontAwesomeIcon icon={faPhone} />
-                <a href="#"> +265-00-00-00-000 </a></span></h4>
+                <Link> +265-00-00-00-000 </Link></span></h4>
             </div>
           </div>
         </div>
@@ -61,4 +61,4 @@ function Contact_Us() {
   )
 }
 
-export default Contact_Us
+export default ContactUs

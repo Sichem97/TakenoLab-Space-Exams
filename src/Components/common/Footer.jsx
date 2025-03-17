@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -9,7 +10,7 @@ function Footer() {
         <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
           <p>© Copyright 2025 takenoLAB HUB. All Rights Reserved. 
           
-          <br/>Design: <a rel="nofollow" href="">takenoLAB HUB</a></p>
+          <br/>Design: <Link>Pillar of Africa</Link></p>
         </div>
       </div>
     </div>

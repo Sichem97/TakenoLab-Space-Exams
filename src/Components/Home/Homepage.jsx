@@ -20,7 +20,7 @@ function Homepage() {
                     <input type="address" name="address" class="email" placeholder="Here for assignement?" autocomplete="on" required disabled/>
                   </fieldset>
                   <fieldset>
-                    <button type="submit" class="main-button">Find here</button>
+                    <button type="submit" class="main-button"><Link to='/Services'>Find here</Link></button>
                   </fieldset>
                 </form>
               </div>

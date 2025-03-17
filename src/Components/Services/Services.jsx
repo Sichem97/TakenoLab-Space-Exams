@@ -1,5 +1,7 @@
 import React from 'react'
 import './services.css'
+import { Link } from 'react-router-dom'
+
 
 function Services() {
   return (
@@ -16,43 +18,56 @@ function Services() {
 
       <div class="row">
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <Link to='/Quiz'>
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
               <div class="hidden-content">
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                <p>Daily Available</p>
               </div>
               <div class="showed-content">
               <h4>Quiz</h4>
 
               </div>
             </div>
-          </a>
+          </Link>
         </div>
 
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <Link to='/Assignements'>
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
               <div class="hidden-content">
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                <p>Weekly Available</p>
               </div>
               <div class="showed-content">
               <h4>Assignements</h4>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
 
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <Link to='/Exams'>
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
               <div class="hidden-content">
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                <p>Available after the course program</p>
               </div>
               <div class="showed-content">
               <h4>Exams</h4>
               </div>
             </div>
-          </a>
+          </Link>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <Link to=''>
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="hidden-content">
+                <p>Coming soon</p>
+              </div>
+              <div class="showed-content">
+              <h4>Project Submittion</h4>
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
